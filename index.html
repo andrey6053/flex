@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" href="source/style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <button onclick="topFunction()" class="back-to-header"><img src="img/up.svg" alt=""><a href="#home"></a></button>
+      <header class="header container" id="home">
+         <div class="header__container">
+            <div class="header__body">
+               <button class="header__hamburger">
+                  <span></span><span></span><span></span>
+               </button>
+               <nav class="header__nav">
+                  <div class="header__item"><a href="#home">Home</a></div>
+                  <div class="header__item"><a href="#aboutMe">About me</a></div>
+                  <div class="header__item"><a href="#skills">Skills</a></div>
+                  <div class="header__item"><a href="#contacts">Contacts</a></div>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <div class="body">
+         <div class="home">
+            <div class="container">
+               <div class="home__row">
+                  <div class="home__name">Denis <br /> Novik</div>
+                  <div class="home__info">UX | UI designer <br /> 24 years old, Minsk</div>
+                  <div class="home__lang"><span>RU</span> | <span>ENG</span></div>
+               </div>
+               <div class="home__img">
+               </div>
+            </div>
+         </div>
+         <div class="about-me" id="aboutMe">
+            <div class="container">
+               <div class="about-me__title">About me</div>
+               <div class="about-me__mainText">
+                  <p class="mainText__text mainText">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in
+                     design
+                     and
+                     everything connected with it.</p>
+                  <p class="mainText__text">I'm studying at courses "Web and mobile design interfaces" in
+                     IT-Academy. </p>
+                  <p class="mainText__text">Ready to implement excellent projects with wonderful people.</p>
+               </div>
+            </div>
+         </div>
+         <div class="skills container" id="skills">
+            <div class="skills__title">
+               Skills
+               <div class="skills__subtitle">
+                  I work in such programs as
+               </div>
+            </div>
+            <div class="skills__programs programs">
+               <ul>
+                  <li class="programs__progs">
+                     <img src="./img/Photoshop.svg" alt="">
+                     <span> Adobe <br />
+                        Photoshop</span>
+                     <div class="programs__rating">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                     </div>
+                  </li>
+                  <li class="programs__progs">
+                     <img src="./img/illustrator.svg" alt="">
+                     <span>Adobe<br />
+                        Illustrator</span>
+                     <div class="programs__rating">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                     </div>
+                  </li>
+                  <li class="programs__progs">
+                     <img src="./img/Ae.svg" alt="">
+                     <span>Adobe<br />
+                        After Effects</span>
+                     <div class="programs__rating">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                     </div>
+                  </li>
+                  <li class="programs__progs">
+                     <img src="./img/figma.svg" alt="">
+                     <span>Figma</span>
+                     <div class="programs__rating">
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span class="active"></span>
+                        <span></span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__title title">
+               <div class="title__text" id="contacts">Contacts</div>
+               <div class="title__subTitle">Want to know more or just chat? <br />
+                  You are welcome!</div>
+               <button class="title__btn">Send message</button>
+            </div>
+            <div class="modal container">
+               <div class="modal__card">
+                  <img src="./img/close.svg" id='close' alt="">
+                  <h1 class="modal__title">Contact Form</h1>
+                  <form action="https://formsubmit.co/cc4ac24be8200ad40d0ceca0799c00d0" method="POST"
+                     class="modal__form">
+                     <input type="text" name="Name" placeholder="Full Name" required>
+                     <input type="email" name="Email" placeholder="Email" required>
+                     <input type="text" name="Company" placeholder="Company" required>
+                     <select name="Continent">
+                        <option>Africa</option>
+                        <option>Antartica</option>
+                        <option>Asia</option>
+                        <option>Australia</option>
+                        <option>Europe</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                     </select>
+                     <textarea class="modal__textarea" name="Message" id="" placeholder="Message" required></textarea>
+                     <button class="modal__button" type="submit">Send message</button>
+                  </form>
+               </div>
+            </div>
+            <div class="footer__social social">
+               <div class="social__icons"><a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedn.svg"
+                        alt=""></a></div>
+               <div class="social__icons"><a href="https://www.instagram.com/" target="_blank"><img src="img/inst.svg"
+                        alt=""></a></div>
+               <div class="social__icons"><a href="https://www.behance.net/" target="_blank"><img src="img/behance.svg"
+                        alt=""></a></div>
+               <div class="social__icons"><a href="https://dribbble.com/" target="_blank"><img src="img/dribble.svg"
+                        alt=""></a>
+               </div>
+            </div>
+            <div class="footer__likeMe likeSocial">
+               <p class="likeSocial__likeMe">Like me on <br />
+                  LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="app.js"></script>
+</body>
+
+</html>
